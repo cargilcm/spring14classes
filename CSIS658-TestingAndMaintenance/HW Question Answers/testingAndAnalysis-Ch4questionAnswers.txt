@@ -1,0 +1,24 @@
+Chris Cargile
+
+4.1) (paraphrasing) Considering the difference between program reliability and correctness, 
+	identify a circumstance in which an incorrect program might be 100% reliable:
+	
+	As a program is only correct(ie:all or none) when it carries out the details provided
+	in a specification exactly, a reliable program need only achieve the intended function-
+	ality (overall effect) and possibly that it also is robust (while it is true, yet, that 
+	this may be above and beyond what the specification states, even but may be helpful if
+	anticipating what a user expects of a 'reliable' system).
+	
+4.3) When might measures for %packets transmitted successfully and %service time in which
+	packets are correctly routed differ?
+	
+	%Packets transmitted successfully may lag behind %service time in which packed are corr-
+	ectly routed if, for example, the tranmission protocol is robust enough to ensure
+	packets are queued for later delivery in the event they cannot initially reach the dest-
+	ination, or for example, if the routing is a distinctive aspect of delivery as from the
+	actual payload of the transmission.  In other words, if the packet notifies the recipient/
+	destination that the packet will be arriving correctly, perhaps the packet will log having
+	been routed, and yet the entirety of the payload will not yet have arrived.  A distinction
+	as to the meaning behind the measures is one concept that could be useful in understanding
+	the context of the difference, here.
+	
