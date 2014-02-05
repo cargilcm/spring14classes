@@ -1,0 +1,82 @@
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Configuration for GAE latest
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for com.google.gdata:gdata-client-1.0:jar:1.47.1 is missing, no dependency information available
+[WARNING] The POM for com.google.gdata:gdata-client-meta-1.0:jar:1.47.1 is missing, no dependency information available
+[WARNING] The POM for com.google.gdata:gdata-core-1.0:jar:1.47.1 is missing, no dependency information available
+[WARNING] The POM for com.google.gdata:gdata-docs-3.0:jar:1.47.1 is missing, no dependency information available
+[WARNING] The POM for com.google.gdata:gdata-docs-meta-3.0:jar:1.47.1 is missing, no dependency information available
+[WARNING] The POM for com.google.gdata:gdata-maps-2.0:jar:1.47.1 is missing, no dependency information available
+[WARNING] The POM for com.google.gdata:gdata-maps-meta-2.0:jar:1.47.1 is missing, no dependency information available
+[WARNING] The POM for com.google.gdata:gdata-media-1.0:jar:1.47.1 is missing, no dependency information available
+[WARNING] The POM for com.google.gdata:gdata-spreadsheet-3.0:jar:1.47.1 is missing, no dependency information available
+[WARNING] The POM for com.google.gdata:gdata-spreadsheet-meta-3.0:jar:1.47.1 is missing, no dependency information available
+[WARNING] The POM for com.googlecode.gwt-google-maps-v3:gwt-google-maps-v3:jar:snapshot is missing, no dependency information available
+[WARNING] The POM for com.google.gwt.google-apis:gwt-visualization:jar:1.1.1 is missing, no dependency information available
+[WARNING] The POM for org.opendatakit:odk-tomcatutil:jar:1.0 is missing, no dependency information available
+[WARNING] The POM for org.openid4java:openid4java-nodeps:jar:0.9.6.662.odk-SNAPSHOT is missing, no dependency information available
+[WARNING] The POM for org.springframework.security:spring-security-config:jar:3.1.3.odk-SNAPSHOT is missing, no dependency information available
+[WARNING] The POM for org.springframework.security:spring-security-core:jar:3.1.3.odk-SNAPSHOT is missing, no dependency information available
+[WARNING] The POM for org.springframework.security:spring-security-crypto:jar:3.1.3.odk-SNAPSHOT is missing, no dependency information available
+[WARNING] The POM for org.springframework.security:spring-security-openid:jar:3.1.3.odk-SNAPSHOT is missing, no dependency information available
+[WARNING] The POM for org.springframework.security:spring-security-web:jar:3.1.3.odk-SNAPSHOT is missing, no dependency information available
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.638s
+[INFO] Finished at: Thu Jan 30 15:12:15 EST 2014
+[INFO] Final Memory: 9M/167M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project odk-gae-settings: Could not resolve dependencies for project org.opendatakit:odk-gae-settings:jar:latest: The following artifacts could not be resolved: com.google.gdata:gdata-client-1.0:jar:1.47.1, com.google.gdata:gdata-client-meta-1.0:jar:1.47.1, com.google.gdata:gdata-core-1.0:jar:1.47.1, com.google.gdata:gdata-docs-3.0:jar:1.47.1, com.google.gdata:gdata-docs-meta-3.0:jar:1.47.1, com.google.gdata:gdata-maps-2.0:jar:1.47.1, com.google.gdata:gdata-maps-meta-2.0:jar:1.47.1, com.google.gdata:gdata-media-1.0:jar:1.47.1, com.google.gdata:gdata-spreadsheet-3.0:jar:1.47.1, com.google.gdata:gdata-spreadsheet-meta-3.0:jar:1.47.1, com.googlecode.gwt-google-maps-v3:gwt-google-maps-v3:jar:snapshot, com.google.gwt.google-apis:gwt-visualization:jar:1.1.1, org.opendatakit:odk-tomcatutil:jar:1.0, org.openid4java:openid4java-nodeps:jar:0.9.6.662.odk-SNAPSHOT, org.springframework.security:spring-security-config:jar:3.1.3.odk-SNAPSHOT, org.springframework.security:spring-security-core:jar:3.1.3.odk-SNAPSHOT, org.springframework.security:spring-security-crypto:jar:3.1.3.odk-SNAPSHOT, org.springframework.security:spring-security-openid:jar:3.1.3.odk-SNAPSHOT, org.springframework.security:spring-security-web:jar:3.1.3.odk-SNAPSHOT: Failure to find com.google.gdata:gdata-client-1.0:jar:1.47.1 in https://repository.jboss.org/nexus/content/groups/public-jboss/ was cached in the local repository, resolution will not be reattempted until the update interval of jboss-public-repository-group has elapsed or updates are forced -> [Help 1]
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal on project odk-gae-settings: Could not resolve dependencies for project org.opendatakit:odk-gae-settings:jar:latest: The following artifacts could not be resolved: com.google.gdata:gdata-client-1.0:jar:1.47.1, com.google.gdata:gdata-client-meta-1.0:jar:1.47.1, com.google.gdata:gdata-core-1.0:jar:1.47.1, com.google.gdata:gdata-docs-3.0:jar:1.47.1, com.google.gdata:gdata-docs-meta-3.0:jar:1.47.1, com.google.gdata:gdata-maps-2.0:jar:1.47.1, com.google.gdata:gdata-maps-meta-2.0:jar:1.47.1, com.google.gdata:gdata-media-1.0:jar:1.47.1, com.google.gdata:gdata-spreadsheet-3.0:jar:1.47.1, com.google.gdata:gdata-spreadsheet-meta-3.0:jar:1.47.1, com.googlecode.gwt-google-maps-v3:gwt-google-maps-v3:jar:snapshot, com.google.gwt.google-apis:gwt-visualization:jar:1.1.1, org.opendatakit:odk-tomcatutil:jar:1.0, org.openid4java:openid4java-nodeps:jar:0.9.6.662.odk-SNAPSHOT, org.springframework.security:spring-security-config:jar:3.1.3.odk-SNAPSHOT, org.springframework.security:spring-security-core:jar:3.1.3.odk-SNAPSHOT, org.springframework.security:spring-security-crypto:jar:3.1.3.odk-SNAPSHOT, org.springframework.security:spring-security-openid:jar:3.1.3.odk-SNAPSHOT, org.springframework.security:spring-security-web:jar:3.1.3.odk-SNAPSHOT: Failure to find com.google.gdata:gdata-client-1.0:jar:1.47.1 in https://repository.jboss.org/nexus/content/groups/public-jboss/ was cached in the local repository, resolution will not be reattempted until the update interval of jboss-public-repository-group has elapsed or updates are forced
+	at org.apache.maven.lifecycle.internal.LifecycleDependencyResolver.getDependencies(LifecycleDependencyResolver.java:220)
+	at org.apache.maven.lifecycle.internal.LifecycleDependencyResolver.resolveProjectDependencies(LifecycleDependencyResolver.java:127)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.ensureDependenciesAreResolved(MojoExecutor.java:257)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:200)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:84)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:59)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.singleThreadedBuild(LifecycleStarter.java:183)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:161)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:317)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:152)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:555)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:214)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:158)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+Caused by: org.apache.maven.project.DependencyResolutionException: Could not resolve dependencies for project org.opendatakit:odk-gae-settings:jar:latest: The following artifacts could not be resolved: com.google.gdata:gdata-client-1.0:jar:1.47.1, com.google.gdata:gdata-client-meta-1.0:jar:1.47.1, com.google.gdata:gdata-core-1.0:jar:1.47.1, com.google.gdata:gdata-docs-3.0:jar:1.47.1, com.google.gdata:gdata-docs-meta-3.0:jar:1.47.1, com.google.gdata:gdata-maps-2.0:jar:1.47.1, com.google.gdata:gdata-maps-meta-2.0:jar:1.47.1, com.google.gdata:gdata-media-1.0:jar:1.47.1, com.google.gdata:gdata-spreadsheet-3.0:jar:1.47.1, com.google.gdata:gdata-spreadsheet-meta-3.0:jar:1.47.1, com.googlecode.gwt-google-maps-v3:gwt-google-maps-v3:jar:snapshot, com.google.gwt.google-apis:gwt-visualization:jar:1.1.1, org.opendatakit:odk-tomcatutil:jar:1.0, org.openid4java:openid4java-nodeps:jar:0.9.6.662.odk-SNAPSHOT, org.springframework.security:spring-security-config:jar:3.1.3.odk-SNAPSHOT, org.springframework.security:spring-security-core:jar:3.1.3.odk-SNAPSHOT, org.springframework.security:spring-security-crypto:jar:3.1.3.odk-SNAPSHOT, org.springframework.security:spring-security-openid:jar:3.1.3.odk-SNAPSHOT, org.springframework.security:spring-security-web:jar:3.1.3.odk-SNAPSHOT: Failure to find com.google.gdata:gdata-client-1.0:jar:1.47.1 in https://repository.jboss.org/nexus/content/groups/public-jboss/ was cached in the local repository, resolution will not be reattempted until the update interval of jboss-public-repository-group has elapsed or updates are forced
+	at org.apache.maven.project.DefaultProjectDependenciesResolver.resolve(DefaultProjectDependenciesResolver.java:198)
+	at org.apache.maven.lifecycle.internal.LifecycleDependencyResolver.getDependencies(LifecycleDependencyResolver.java:195)
+	... 22 more
+Caused by: org.eclipse.aether.resolution.DependencyResolutionException: The following artifacts could not be resolved: com.google.gdata:gdata-client-1.0:jar:1.47.1, com.google.gdata:gdata-client-meta-1.0:jar:1.47.1, com.google.gdata:gdata-core-1.0:jar:1.47.1, com.google.gdata:gdata-docs-3.0:jar:1.47.1, com.google.gdata:gdata-docs-meta-3.0:jar:1.47.1, com.google.gdata:gdata-maps-2.0:jar:1.47.1, com.google.gdata:gdata-maps-meta-2.0:jar:1.47.1, com.google.gdata:gdata-media-1.0:jar:1.47.1, com.google.gdata:gdata-spreadsheet-3.0:jar:1.47.1, com.google.gdata:gdata-spreadsheet-meta-3.0:jar:1.47.1, com.googlecode.gwt-google-maps-v3:gwt-google-maps-v3:jar:snapshot, com.google.gwt.google-apis:gwt-visualization:jar:1.1.1, org.opendatakit:odk-tomcatutil:jar:1.0, org.openid4java:openid4java-nodeps:jar:0.9.6.662.odk-SNAPSHOT, org.springframework.security:spring-security-config:jar:3.1.3.odk-SNAPSHOT, org.springframework.security:spring-security-core:jar:3.1.3.odk-SNAPSHOT, org.springframework.security:spring-security-crypto:jar:3.1.3.odk-SNAPSHOT, org.springframework.security:spring-security-openid:jar:3.1.3.odk-SNAPSHOT, org.springframework.security:spring-security-web:jar:3.1.3.odk-SNAPSHOT: Failure to find com.google.gdata:gdata-client-1.0:jar:1.47.1 in https://repository.jboss.org/nexus/content/groups/public-jboss/ was cached in the local repository, resolution will not be reattempted until the update interval of jboss-public-repository-group has elapsed or updates are forced
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveDependencies(DefaultRepositorySystem.java:384)
+	at org.apache.maven.project.DefaultProjectDependenciesResolver.resolve(DefaultProjectDependenciesResolver.java:192)
+	... 23 more
+Caused by: org.eclipse.aether.resolution.ArtifactResolutionException: The following artifacts could not be resolved: com.google.gdata:gdata-client-1.0:jar:1.47.1, com.google.gdata:gdata-client-meta-1.0:jar:1.47.1, com.google.gdata:gdata-core-1.0:jar:1.47.1, com.google.gdata:gdata-docs-3.0:jar:1.47.1, com.google.gdata:gdata-docs-meta-3.0:jar:1.47.1, com.google.gdata:gdata-maps-2.0:jar:1.47.1, com.google.gdata:gdata-maps-meta-2.0:jar:1.47.1, com.google.gdata:gdata-media-1.0:jar:1.47.1, com.google.gdata:gdata-spreadsheet-3.0:jar:1.47.1, com.google.gdata:gdata-spreadsheet-meta-3.0:jar:1.47.1, com.googlecode.gwt-google-maps-v3:gwt-google-maps-v3:jar:snapshot, com.google.gwt.google-apis:gwt-visualization:jar:1.1.1, org.opendatakit:odk-tomcatutil:jar:1.0, org.openid4java:openid4java-nodeps:jar:0.9.6.662.odk-SNAPSHOT, org.springframework.security:spring-security-config:jar:3.1.3.odk-SNAPSHOT, org.springframework.security:spring-security-core:jar:3.1.3.odk-SNAPSHOT, org.springframework.security:spring-security-crypto:jar:3.1.3.odk-SNAPSHOT, org.springframework.security:spring-security-openid:jar:3.1.3.odk-SNAPSHOT, org.springframework.security:spring-security-web:jar:3.1.3.odk-SNAPSHOT: Failure to find com.google.gdata:gdata-client-1.0:jar:1.47.1 in https://repository.jboss.org/nexus/content/groups/public-jboss/ was cached in the local repository, resolution will not be reattempted until the update interval of jboss-public-repository-group has elapsed or updates are forced
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:459)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:262)
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveDependencies(DefaultRepositorySystem.java:367)
+	... 24 more
+Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Failure to find com.google.gdata:gdata-client-1.0:jar:1.47.1 in https://repository.jboss.org/nexus/content/groups/public-jboss/ was cached in the local repository, resolution will not be reattempted until the update interval of jboss-public-repository-group has elapsed or updates are forced
+	at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.newException(DefaultUpdateCheckManager.java:232)
+	at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.checkArtifact(DefaultUpdateCheckManager.java:206)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.gatherDownloads(DefaultArtifactResolver.java:599)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:518)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:436)
+	... 26 more
+[ERROR] 
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException

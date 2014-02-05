@@ -1,0 +1,11 @@
+based on the documentation here, which is linked to inside the 'GAE-android-connected new project' wizard from Eclipse,
+this type of project would contain the keyword CloudEndpoint somewhere in the codebase(most likely), if it were this type of project:
+https://developers.google.com/eclipse/docs/endpoints-addentities
+
+..I figure once I know the type of 'new project wizard' the ODK team based their initial design on, I can investigate how I'd have/they made their test cases, so I can get on board most easily.
+
+More on JUnit testing inside AppEngine projects(locally) is found at:
+https://developers.google.com/appengine/docs/java/tools/localunittesting
+
+For more on testing AppEngine projects, visit here:
+https://developers.google.com/appengine/docs/java/tools/localunittesting
