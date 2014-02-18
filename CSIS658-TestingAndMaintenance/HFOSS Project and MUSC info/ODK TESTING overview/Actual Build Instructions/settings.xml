@@ -1,0 +1,38 @@
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
+                      http://maven.apache.org/xsd/settings-1.0.0.xsd">
+  <servers>
+	<server>
+		<id>local.gae</id>
+		<username>follybeachris@gmail.com</username>
+		<password></password>
+	</server>
+  </servers>
+  <profiles>
+  	<profile>
+  	  <id>gae</id>
+  	  <activation><activeByDefault>true</activeByDefault></activation>
+  	  <properties>
+		<localRepository>${user.home}/.m2/repository</localRepository>
+		<temp.home>C:\\Users\\Chris\\AppData\\Local\\Temp</temp.home>
+	    <gae.home>C:\\Users\\Chris\\appengine-java-sdk-1.8.0</gae.home>
+		<keystore.propertyfile>C:\\Users\\Chris\\Documents\\ssh\\my-release-keyWIN8.keystore</keystore.propertyfile>
+		<headless.operation>no</headless.operation>
+		<mysql.client.executable>C:\\wamp\\bin\\mysql\\mysql5.6.12\\bin</mysql.client.executable>
+		<mysql.root.password>admi</mysql.root.password>
+		<postgres.client.executable>C:\\Program Files\\PostgreSQL\\9.1\\bin\\psql.exe</postgres.client.executable>
+		<postgres.root.password>POSTGRESQLROOTPASSWORDHERE</postgres.root.password>
+		<selenium.home>C:\\Users\\Chris\\Documents\\programs-internal and external sources\\selenium-2.39.0</selenium.home>
+		<selenium.libs>C:\\Users\\Chris\\Documents\\programs-internal and external sources\\selenium-2.39.0\\libs</selenium.libs>
+		<test.server.hostname>localhost</test.server.hostname>
+		<test.server.port>7070</test.server.port>
+		<test.server.secure.port>7443</test.server.secure.port>
+		<test.server.gae.monitor.port>7075</test.server.gae.monitor.port>
+		<firefox.executable></firefox.executable>
+		<catalina.zip>file:///C:\\Users\\Chris\\Desktop\\Tomcat6.0.zip</catalina.zip>
+	  </properties>
+  	</profile>
+  </profiles>
+  <activeProfiles><activeProfile>gae</activeProfile></activeProfiles>
+</settings>
