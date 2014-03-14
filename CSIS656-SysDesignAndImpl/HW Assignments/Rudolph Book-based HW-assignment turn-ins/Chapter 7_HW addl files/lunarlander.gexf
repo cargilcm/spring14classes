@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<_1:gexf xmlns:_1="http://www.gexf.net/1.2draft">
+  <_1:graph>
+    <_1:nodes>
+      <_1:node id="thing:154" label="CalculationEng">
+        <_1:position x="602.0" y="-170.0"/>
+        <_1:size value="72.11102"/>
+        <_1:color b="245" g="203" r="197"/>
+      </_1:node>
+      <_1:node id="thing:157" label="DataStore">
+        <_1:position x="432.0" y="-96.0"/>
+        <_1:size value="72.11102"/>
+        <_1:color b="245" g="203" r="197"/>
+      </_1:node>
+      <_1:node id="thing:144" label="UserInterface">
+        <_1:position x="432.0" y="-288.0"/>
+        <_1:size value="72.11102"/>
+        <_1:color b="245" g="203" r="197"/>
+      </_1:node>
+    </_1:nodes>
+    <_1:edges/>
+  </_1:graph>
+</_1:gexf>

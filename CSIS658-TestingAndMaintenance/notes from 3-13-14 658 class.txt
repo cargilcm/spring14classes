@@ -1,0 +1,1 @@
+pmd is similar to sonar for java in eclipse to analyze data paths
