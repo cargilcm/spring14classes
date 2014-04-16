@@ -1,0 +1,66 @@
+<head>
+	<script src="http://www.java.com/js/deployJava.js"></script>
+	<!-- Receiver Applet -->
+	<script> 
+		var attributes = { id:'receiver', code:'applet.Receiver.class',
+			archive:'applet_Receiver.jar',  width:300, height:50} ;
+		var parameters = {};
+		deployJava.runApplet(attributes, parameters, '1.6');
+
+	</script>
+
+    <script language="javascript">
+    /*
+     * 
+     */
+    function displayMessage(message) {//for P2PConnector to send message to display
+        messageBoard.getMessages(message);
+    }
+
+    function addConnection(id, ip, socket) {
+        p2pwrapper.addConnection(id, ip, socket);
+    }
+    
+    function disconnect(id) {
+        p2pwrapper.disconnect(id);
+    }
+    function displayMessages(){
+		document.getElementById('m').innerHTML=receiver.getCount();
+	}
+    function sendMsgToIncrementCounter() {            
+        receiver.incrementCounter();
+	 }
+
+    </script>
+</head>
+
+<body onload="sendMsgToIncrementCounter()">
+<div style="width:1000px;">
+	<div style="position:relative;float:left;">
+	    <applet code="applet.login_page.class" width="320" height="100">
+	        Server Connector should display conneciton status and have a connect/disconnect button
+	    </applet>
+    </div><BR>
+    <div style="position:relative;float:left;">
+	    <applet code="applet.Messenger.class" width="320" height="320">
+	        Should be a Message Board here
+	    </applet>
+    </div>
+	 <div style="position:relative;float:left;">
+	    <applet code="applet.MessageBoard.class" width="320" height="320">
+	        Should be a Message Board here
+	    </applet>
+    </div>
+	<div style="position:relative;float:left;">
+	    <applet code="applet.Receiver.class" width="320" height="320">
+	        Should be a receiver here
+	    </applet>
+    </div>
+	
+	<div id="messages">Messages:<BR>
+	<button onclick="sendMsgToIncrementCounter()">incr</button>
+	<p id="m">you!</p>
+	</div>
+</div>
+
+</body>
