@@ -1,0 +1,17 @@
+/** note: per below, all documents in this directory are provided in the version-format here**/
+Jonathon Ng
+11:30 AM (6 hours ago)
+to: gayathri, Nick, me
+Subject: corrected logical architecture
+
+Everyone,
+
+Thank you for your efforts, I will be sending the documents we have now to Professor Rudolph.
+
+The repository also contains all documentation files for everyone to access at the same time.
+
+On another note, were we planning to meet today? 5pm panera?
+
+Sincerely,
+
+Jonathon Ng

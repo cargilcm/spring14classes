@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: XsltPanelTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in XsltPanelTest
+testXsltPanel(XsltPanelTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Not yet implemented
+	at org.junit.Assert.fail(Assert.java:91)
+	at XsltPanelTest.testXsltPanel(XsltPanelTest.java:10)
+
+testActionPerformed(XsltPanelTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: Not yet implemented
+	at org.junit.Assert.fail(Assert.java:91)
+	at XsltPanelTest.testActionPerformed(XsltPanelTest.java:15)
+
+testGetSourceXMLfileTextField(XsltPanelTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Not yet implemented
+	at org.junit.Assert.fail(Assert.java:91)
+	at XsltPanelTest.testGetSourceXMLfileTextField(XsltPanelTest.java:20)
+
+testSetSourceXMLfileTextField(XsltPanelTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Not yet implemented
+	at org.junit.Assert.fail(Assert.java:91)
+	at XsltPanelTest.testSetSourceXMLfileTextField(XsltPanelTest.java:25)
+
+testGetPathXslFile(XsltPanelTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Not yet implemented
+	at org.junit.Assert.fail(Assert.java:91)
+	at XsltPanelTest.testGetPathXslFile(XsltPanelTest.java:30)
+
+testSetPathXslFile(XsltPanelTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Not yet implemented
+	at org.junit.Assert.fail(Assert.java:91)
+	at XsltPanelTest.testSetPathXslFile(XsltPanelTest.java:35)
+

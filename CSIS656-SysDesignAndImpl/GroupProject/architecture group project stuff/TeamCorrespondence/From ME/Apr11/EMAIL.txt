@@ -1,0 +1,68 @@
+/** PER BELOW, I am not proceeding with Nick's instructions b/c they were unclear or my understanding was neither affirmed nor disaffirmed **/
+
+Chris Cargile <follybeachris@gmail.com>
+	
+Apr 11 (9 days ago)
+		
+to Nick, gayathri, hng
+
+Subject: Applet's interaction, assumptions based on current .html file's javascript methods
+
+
+Ok, then based on this email I interpret my responsibility will be to implement a method inside of MessageBoard (since I am claiming ownership of that applet now) and the 'architecture' of the MessageBoard.displayMessage() method will be:
+
+purpose:  accept messages from any peer who has registered online with the System
+input/parameters:   String message
+output:                  Array of ChatMessage objects, where ChatMessage has two fields: <String>Sender, <String>Message
+
+I will work with Johnathon and Gayathri to see if we can get to the bottom of the calls between javascript/java classes and getting JavaObjects to print their data to the web page, on or before Sunday.
+
+
+
+On Fri, Apr 11, 2014 at 2:53 PM, Nick Rhodes <nicklausrhodes@gmail.com> wrote:
+
+    I think the best way to handle incoming messages is for the P2PConnector to call a method in the MesaageBoard class whenever a incoming message is received.
+
+    So, MessageBoard should have a method like displayMessage() that will take a string as input and display it. Each class that wishes to display something will then call a Java script method that will invoke displayMessage ().
+    On Apr 11, 2014 2:38 PM, "Chris Cargile" <follybeachris@gmail.com> wrote:
+
+        Nick, thank you for test classes. I can see there are 3 methods exposed by the P2PWrapper class.  
+
+        The html page includes javascript code which presently involves invocation of a {OSNativeWebBrowser}.JSObject member called P2PWrapper so we can access P2PConnector's needed methods.  
+
+        Gayathri and Jonathon, does it sound like I'm getting the gist of this correct so far, technically speaking?
+
+        Nick/All,
+
+        If P2PWrapper exposes sendMessage() could we implement a getMessages() method that obtains list of messages posted to the System statically via MessageBoard.java?
+
+
+
+
+        On Apr 10, 2014 6:27 PM, "Nick Rhodes" <nicklausrhodes@gmail.com> wrote:
+
+            In reference to the interfaces of P2PWrapper and ServerConnector:
+
+            P2PWrapper class is an applet that exposes the functions of P2PConnector. The three main functions that are exposed are addConnection (...), sendMessage (...), and disconnect (...).
+
+            These functions have been tested and test classes are available on the repository: P2PConnector.P2Ptest_remote.java and P2PConnector.P2Ptest.java. Run test_remote first, then test.
+
+            ServerConnector is an applet that should be used to send request to the registry server. Exposed functions would be things like login(...), getClientList(...), logout(...). Please note that this class is not implemented yet, so there can and will be additional functions that maybe required to be defined.
+
+            I will be working on implementing and testing ServerConnector next and anticipate being mostly complete by this weekend.
+
+            If, in the course of developing your classes, you realize that you need an additional service from these 2 connectors let me know and we can discuss.
+
+            -Nick
+            On Apr 10, 2014 4:45 PM, "Chris Cargile" <follybeachris@gmail.com> wrote:
+
+                Nick(/All) has stated and affirmed that the Applet's might initiate their association amongst the peers/system via the applet's invocation(s?) resulting in java http requests being made at the socket-level.  
+
+                If the current implementation is used, it seems we are relying on P2PWrapper to associate clients wishing to login among the system (for further referenced, there is google repo task titled "Initiating Login").
+
+                If we rely on P2PWrapper, should we abandon the other applets being loaded by the .html file and collectively work towards fleshing out how P2PWrapper will work on the client machines and getting this fully implemented Sunday?
+
+                Does everyone understand what's happening in Nick's code so they could build their own socket-level client/server or are you interested in that?
+
+                Personally, I think we're still lacking final, clear guidance on what and how the system will do and we won't have a demo before that is established.
+

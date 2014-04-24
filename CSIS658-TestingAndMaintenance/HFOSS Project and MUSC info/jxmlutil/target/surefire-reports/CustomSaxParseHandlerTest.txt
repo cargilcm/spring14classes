@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: CustomSaxParseHandlerTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec <<< FAILURE! - in CustomSaxParseHandlerTest
+testStartDocument(CustomSaxParseHandlerTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: Not yet implemented
+	at org.junit.Assert.fail(Assert.java:91)
+	at CustomSaxParseHandlerTest.testStartDocument(CustomSaxParseHandlerTest.java:10)
+
+testEndDocument(CustomSaxParseHandlerTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Not yet implemented
+	at org.junit.Assert.fail(Assert.java:91)
+	at CustomSaxParseHandlerTest.testEndDocument(CustomSaxParseHandlerTest.java:15)
+
+testCharacters(CustomSaxParseHandlerTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Not yet implemented
+	at org.junit.Assert.fail(Assert.java:91)
+	at CustomSaxParseHandlerTest.testCharacters(CustomSaxParseHandlerTest.java:20)
+
+testCustomSaxParseHandler(CustomSaxParseHandlerTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.AssertionError: Not yet implemented
+	at org.junit.Assert.fail(Assert.java:91)
+	at CustomSaxParseHandlerTest.testCustomSaxParseHandler(CustomSaxParseHandlerTest.java:25)
+
+testStartElementStringStringStringAttributes(CustomSaxParseHandlerTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: Not yet implemented
+	at org.junit.Assert.fail(Assert.java:91)
+	at CustomSaxParseHandlerTest.testStartElementStringStringStringAttributes(CustomSaxParseHandlerTest.java:30)
+
+testSkippedEntityString(CustomSaxParseHandlerTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Not yet implemented
+	at org.junit.Assert.fail(Assert.java:91)
+	at CustomSaxParseHandlerTest.testSkippedEntityString(CustomSaxParseHandlerTest.java:35)
+
+testEndElementStringStringString(CustomSaxParseHandlerTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Not yet implemented
+	at org.junit.Assert.fail(Assert.java:91)
+	at CustomSaxParseHandlerTest.testEndElementStringStringString(CustomSaxParseHandlerTest.java:40)
+
+testExpandAll(CustomSaxParseHandlerTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Not yet implemented
+	at org.junit.Assert.fail(Assert.java:91)
+	at CustomSaxParseHandlerTest.testExpandAll(CustomSaxParseHandlerTest.java:45)
+

@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Built-By: Chris
+Build-Jdk: 1.7.0_45
+Class-Path: xalan-2.7.1.jar xml-apis-1.3.04.jar serializer-2.7.1.jar x
+ ercesImpl-2.9.1.jar json-lib-2.4-jdk15.jar commons-beanutils-1.8.0.ja
+ r commons-collections-3.2.1.jar commons-lang-2.5.jar commons-logging-
+ 1.1.1.jar ezmorph-1.0.6.jar xom-1.2.5.jar rsyntaxtextarea-2.0.2.jar s
+ wingx-1.6.1.jar filters-2.0.235.jar swing-worker-1.1.jar miglayout-sw
+ ing-4.2.jar miglayout-core-4.2.jar
+Main-Class: jxmutil.init.StartApp
+Created-By: Maven Integration for Eclipse
+
